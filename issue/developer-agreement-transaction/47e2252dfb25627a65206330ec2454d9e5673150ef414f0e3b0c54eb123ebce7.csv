@@ -1,0 +1,5 @@
+row-number,field,issue-type,value
+24,units,integer,7%
+28,units,integer,15%
+73,entry-date,date,secured
+73,entry-date,default,2021-02-15
