@@ -1,1 +1,9 @@
 pipeline,resource,field,pattern,value
+developer-agreement-transaction,,contribution-funding-status,Allocated,allocated
+developer-agreement-transaction,,contribution-funding-status,Received,received
+developer-agreement-transaction,,contribution-funding-status,Spent,spent
+developer-agreement-transaction,,contribution-funding-status,Secured,secured
+developer-agreement-transaction,,contribution-funding-status,"SECURED: the trigger clauses associated with the contribution have been met, meaning the developer is now required to pay all or part of the contribution",secured
+developer-agreement-transaction,,contribution-funding-status,RECEIVED: the developer has paid all or part of the money due to the local planning authority,received
+developer-agreement-transaction,,contribution-funding-status,SPENT: the received money has been spent on the purpose specified in the section 106 or 278 agreement,spent
+developer-agreement-transaction,,contribution-funding-status,"ALLOCATED: the received money has been allocated to a team within the local planning authority, who will spend the money",allocated
