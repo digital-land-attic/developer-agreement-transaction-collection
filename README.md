@@ -1,10 +1,9 @@
-# Development Agreements Transactions collection
+# developer-agreement-transaction collection
 
-[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/brownfield-land/blob/master/LICENSE)
+[![License](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/digital-land/developer-agreement-transaction/blob/main/LICENSE)
+[![Run pipeline](https://github.com/digital-land/developer-agreement-transaction-collection/actions/workflows/run.yml/badge.svg)](https://github.com/digital-land/developer-agreement-transaction-collection/actions/workflows/run.yml)
 
-A collection of Development Agreements Transactions collected from Local Authorities.
-
-The national dataset is in a format consistent with other Digital Land datasets as defined by the [Developer Agreement Transaction schema](https://digital-land.github.io/specification/schema/developer-agreement-transaction/).
+The data and pipeline to build the [developer-agreement-transaction dataset](https://www.digital-land.info/dataset/developer-agreement-transaction).
 
 # Collection
 
@@ -23,11 +22,7 @@ We recommend working in [virtual environment](http://docs.python-guide.org/en/la
     $ make init
     $ make collect
 
-# Nightly collection
-
-The collection is [updated nightly](https://github.com/digital-land/developer-agreement-transaction-collection/actions) by the [GitHub Action](.github/workflows/run.yml).
-
-# Building the national dataset
+# Building the datasets
 
 The collected files can then be converted into a national dataset:
 
